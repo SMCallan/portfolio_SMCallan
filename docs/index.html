@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Callan Smith MacDonald — Technologist</title>
+  <meta name="description" content="Technologist at the nexus of software engineering, security, and digital ethics—shipping resilient systems people trust.">
+  <meta name="theme-color" content="#0c1a23">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Callan Smith MacDonald — Technologist">
+  <meta property="og:description" content="Secure systems engineering • Digital strategy • Human-centric security.">
+  <meta property="og:image" content="assets/img/og-cover.png">
+  <meta property="og:url" content="https://<your-username>.github.io/">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Basic CSP for static site (can relax if needed) -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self' data:;">
+
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Home">
+        <!-- Minimal wordmark -->
+        <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2zm-1 5h2v6h-2V7zm1 10.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></svg>
+        <span>Callan Smith MacDonald</span>
+      </a>
+
+      <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span class="sr-only">Menu</span>
+        ☰
+      </button>
+
+      <ul id="nav-menu" class="nav__menu">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="btn btn--primary">Contact</a></li>
+        <li>
+          <button id="theme-toggle" class="btn btn--ghost" aria-label="Toggle theme" title="Toggle theme">◐</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-label="Introduction">
+      <div class="container">
+        <h1>Technologist</h1>
+        <p class="subhead">Operating at the nexus of <strong>software engineering</strong>, <strong>cyber security</strong>, and <strong>digital ethics</strong>.</p>
+
+        <div class="badge-row" role="list" aria-label="Focus areas">
+          <span role="listitem" class="badge">Security‑first</span>
+          <span role="listitem" class="badge">DFIR</span>
+          <span role="listitem" class="badge">Python • Rust/Go • JS</span>
+          <span role="listitem" class="badge">Human‑centric</span>
+        </div>
+
+        <div class="cta-row">
+          <a class="btn btn--primary" href="#work">View Work</a>
+          <a class="btn btn--ghost" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+      <!-- subtle decorative background -->
+      <svg class="hero-bg" viewBox="0 0 800 400" aria-hidden="true" focusable="false" preserveAspectRatio="none">
+        <path d="M0,300 C200,200 400,400 800,280 L800,400 L0,400Z" />
+      </svg>
+    </section>
+
+    <!-- SNAPSHOT -->
+    <section class="snapshot container" aria-label="Snapshot">
+      <h2>Executive Snapshot</h2>
+      <ul class="keypoints">
+        <li>Secure Systems Engineering • Digital Strategy & Intelligence • Human‑Centric Security</li>
+        <li>MSc Computer Science • BSc Psychology</li>
+        <li>Builds resilient tools; ships under constraints; communicates with clarity</li>
+      </ul>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="work container" aria-labelledby="work-title">
+      <div class="section-head">
+        <h2 id="work-title">Selected Work</h2>
+        <div class="filters" role="group" aria-label="Filter work by tag">
+          <button class="chip is-active" data-filter="all" aria-pressed="true">All</button>
+          <button class="chip" data-filter="security">Security</button>
+          <button class="chip" data-filter="data">Data</button>
+          <button class="chip" data-filter="systems">Systems</button>
+          <button class="chip" data-filter="strategy">Strategy</button>
+        </div>
+      </div>
+
+      <div class="card-grid" id="work-grid">
+        <!-- Card 1 -->
+        <article class="card" data-tags="security strategy">
+          <h3><a href="https://smcallan.github.io/Version-Control-Strategy-with-Git-for-Sensitive-Projects/" target="_blank" rel="noopener">Secure Git for Sensitive Projects</a></h3>
+          <p>Version‑control strategy for high‑trust environments: defensible commits, secret hygiene, reproducibility.</p>
+          <ul class="tags"><li>Security</li><li>Strategy</li></ul>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card" data-tags="data security">
+          <h3><a href="https://smcallan.github.io/Python-for-Forensic-Tool-Tooling/" target="_blank" rel="noopener">Python for Forensic Tooling</a></h3>
+          <p>Rapid evidence parsing with tests and SSDLC guardrails; small tools that do one thing well.</p>
+          <ul class="tags"><li>Data</li><li>Security</li></ul>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card" data-tags="systems">
+          <h3><a href="https://smcallan.github.io/High-Performance-Systems-with-Rust-Go/" target="_blank" rel="noopener">High‑Performance Systems with Rust & Go</a></h3>
+          <p>Where reliability meets speed: choosing the right runtime and memory model for the job.</p>
+          <ul class="tags"><li>Systems</li></ul>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="card" data-tags="strategy security">
+          <h3><a href="https://smcallan.github.io/Agile-Law-Enforcement-Tool-Development/" target="_blank" rel="noopener">Agile LE Tool Development</a></h3>
+          <p>Adapting agile to constrained, sensitive domains—balancing necessity, proportionality, and delivery.</p>
+          <ul class="tags"><li>Strategy</li><li>Security</li></ul>
+        </article>
+      </div>
+
+      <details class="more">
+        <summary>More context</summary>
+        <p>Each item includes constraints, trade‑offs, and outcomes. Contact for deeper technical walkthroughs and code artifacts where appropriate.</p>
+      </details>
+    </section>
+
+    <!-- WRITING -->
+    <section id="writing" class="writing container" aria-labelledby="writing-title">
+      <h2 id="writing-title">Writing</h2>
+      <div class="notes">
+        <article class="note">
+          <h3><a href="https://smcallan.github.io/The-Chimera-Doctrine/" target="_blank" rel="noopener">The Chimera Doctrine</a></h3>
+          <p>Notes on hybrid threats and the strategic edges where technology meets statecraft.</p>
+          <ul class="tags"><li>Strategy</li><li>Ethics</li></ul>
+        </article>
+        <article class="note">
+          <h3><a href="https://smcallan.github.io/secret_states/" target="_blank" rel="noopener">The Convergent Edge</a></h3>
+          <p>Visualising convergence: data, influence, and infrastructure.</p>
+          <ul class="tags"><li>Data</li></ul>
+        </article>
+        <article class="note">
+          <h3><a href="https://github.com/SMCallan/WOC" target="_blank" rel="noopener">Weapons of Character</a></h3>
+          <p>Investigating non‑standard character exploits and string‑based risks.</p>
+          <ul class="tags"><li>Security</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about container" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <p class="lead">I build resilient, human‑aware systems. My background blends <strong>Computer Science</strong> (MSc) with <strong>Psychology</strong> (BSc), informing a security‑first, proportionate approach to engineering.</p>
+
+      <div class="skills">
+        <div class="skill-col">
+          <h3>Operate</h3>
+          <ul>
+            <li>Threat modelling & SSDLC</li>
+            <li>Incident‑aware delivery</li>
+            <li>Agile under constraint</li>
+          </ul>
+        </div>
+        <div class="skill-col">
+          <h3>Build</h3>
+          <ul>
+            <li>Python • Rust/Go • JS</li>
+            <li>Docker • IaC fundamentals</li>
+            <li>Data pipelines & dashboards</li>
+          </ul>
+        </div>
+        <div class="skill-col">
+          <h3>Secure</h3>
+          <ul>
+            <li>DFIR & reverse engineering basics</li>
+            <li>Secure Git & secret hygiene</li>
+            <li>Network & app security</li>
+          </ul>
+        </div>
+        <div class="skill-col">
+          <h3>Decide</h3>
+          <ul>
+            <li>Proportionality & ethics</li>
+            <li>Trade‑off driven design</li>
+            <li>Clear stakeholder comms</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact container" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact</h2>
+      <p>Best way to reach me: <a href="mailto:callansmithmacdonald@gmail.com">callansmithmacdonald@gmail.com</a></p>
+      <p>Elsewhere: <a href="https://github.com/SMCallan" target="_blank" rel="noopener">GitHub</a> · <a href="https://computerscience.engineer/" target="_blank" rel="noopener">Website</a></p>
+      <p><a href="security.txt">security.txt</a> (responsible disclosure)</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Callan Smith MacDonald • No cookies • Privacy‑first</small>
+      <a class="to-top" href="#top" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
